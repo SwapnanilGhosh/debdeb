@@ -2,6 +2,8 @@ body {
   font-size: 16px;
   color: #fff;
   font-family: 'Oxygen', sans-serif;
+
+  width: 100%;
 }
 
 /** HEADER **/
@@ -60,8 +62,9 @@ body {
 }
 
 #phone {
-border:3px; border-style:solid; border-color:#FF0000; padding-bottom: 5px;
+border:3px; border-style:solid;border: 2px solid #fff; padding-bottom: 5px;background-color: #f6b319;
   margin-top: 5px;
+
 }
 #phone a { /* Phone number */
 
@@ -134,11 +137,11 @@ border:3px; border-style:solid; border-color:#FF0000; padding-bottom: 5px;
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 #menu-tile {
-  background: url('../images/menu-tile.jpeg') no-repeat;
+  background: url('../images/menu-tile.jpg') no-repeat;
   background-position: center;
 }
 #specials-tile {
-  background: url('../images/specials-tile.jpeg') no-repeat;
+  background: url('../images/specials-tile.jpg') no-repeat;
   background-position: center;
 }
 #menu-tile span, #specials-tile span, #map-tile span {
@@ -368,6 +371,12 @@ h3.menu-item-title {
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
+  #logo-img {
+    background: url('../images/logo5.png') no-repeat;
+    width: 200px;
+    height: 118px;
+    margin: 5px 5px 5px 85px;
+  }
   /* Header */
   .navbar-brand h1 { /* Restaurant name */
     padding-top: 5px;
